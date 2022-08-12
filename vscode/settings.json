@@ -1,0 +1,63 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "workbench.editor.wrapTabs": true,
+  "editor.minimap.enabled": false,
+  "editor.codeLens": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.suggest.insertMode": "replace",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "html": {
+      "attr_quotes": "single"
+    },
+    "jsx": {
+      "self_closing_tag": true
+    }
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "[ruby]": {
+    "editor.tabSize": 2,
+  },
+  "ruby.useBundler": false,
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": false
+    }
+  },
+  "ruby.intellisense": "rubyLocate",
+  "ruby.format": "rubocop",
+  "[yaml]": {
+    "editor.tabSize": 2
+  },
+  "[haml]": {
+    "editor.tabSize": 2
+  },
+  "[slim]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "docker.containers.label": "ContainerName",
+  "docker.containers.description": [
+    "Status"
+  ],
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "terminal.integrated.scrollback": 20000,
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  }
+}

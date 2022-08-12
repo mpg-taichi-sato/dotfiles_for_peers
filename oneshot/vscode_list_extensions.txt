@@ -1,0 +1,17 @@
+adam-bender.commit-message-editor
+castwide.solargraph
+christian-kohler.path-intellisense
+eamodio.gitlens
+EditorConfig.EditorConfig
+gera2ld.markmap-vscode
+jpoissonnier.vscode-styled-components
+kaiwood.endwise
+mechatroner.rainbow-csv
+ms-azuretools.vscode-docker
+MS-CEINTL.vscode-language-pack-ja
+ms-vsliveshare.vsliveshare
+rebornix.ruby
+shd101wyy.markdown-preview-enhanced
+sibiraj-s.vscode-scss-formatter
+sporto.rails-go-to-spec
+wingrunr21.vscode-ruby
