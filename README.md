@@ -21,11 +21,15 @@ $ make dry-install
 => ここでUsingと出たらすでにファイルがある。上書きするようにはしてないので 消す or リンクしないことのどちらかを選択。
 
 
-wet run
+wet run  
+installといいつつまるっと全部インストールするわけではなく、シンボリックリンクを作るだけ。
+
 
 ```
 $ make install
 ```
+
+
 
 いろいろインストール
 
@@ -33,6 +37,7 @@ $ make install
 $ brew bundle
 $ rbenv install 2.7.2
 $ rbenv global 2.7.2
+$ bundle install
 ```
 
 VSCodeの拡張機能のインストール
@@ -40,6 +45,34 @@ VSCodeの拡張機能のインストール
 ```
 $ make install-vscode-ext
 ```
+
+VSCodeの追加の設定  
+vscodeの settings.json には環境変数を動的に追加することが 2022/8時点ではできない。  
+そのため以下のように設定を追加する。  
+
+```.js
+{
+  "solargraph.useBundler": false,
+  "solargraph.commandPath": "/Users/{アカウント名}/.rbenv/shims/solargraph"
+}
+```
+
+solargraph.commandPathには以下で出たパスをいれる。
+
+```
+$ which solargraph
+```
+
+この設定を追加するのは選択肢以下の2つあるがどちらでもよい。
+
+- dotfilesの vscode/settings.json
+- 作業リポジトリの.vscode/settings.json
+
+後者の場合には Command + Shift + P から 入力欄に settings って打てば  
+Open Workspace Settings (JSON)  
+っていう選択肢がでるのでそれでファイルは生成する。
+
+個人的にはdotfilesに差分出したくないので後者のほうが好み
 
 ## Contents
 
