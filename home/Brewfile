@@ -20,4 +20,3 @@ cask "scroll-reverser"
 cask "skitch"
 cask "sourcetree"
 mas "Sequel Ace", id: 1518036000
-mas "Slack", id: 803453959
